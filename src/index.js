@@ -76,3 +76,10 @@ function updateLikeCount(toyObj) {
     body: JSON.stringify(toyObj)
   })
 }
+
+function init (){
+getToys();
+createNewToy(toyObj);
+
+}
+init();
